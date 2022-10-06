@@ -41,7 +41,26 @@ SSH инфраструктуру и не требует установки сп�
 - Vagrant
 - Ansible
 
-*Приложить вывод команд установленных версий каждой из программ, оформленный в markdown.*
+```
+~> VBoxHeadless  --version
+Oracle VM VirtualBox Headless Interface 6.1.38_Ubuntu
+(C) 2008-2022 Oracle Corporation
+All rights reserved.
+
+6.1.38_Ubuntur153438
+
+~> vagrant -v
+Vagrant 2.2.6
+
+~> ansible --version
+ansible 2.9.6
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/fel/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Jun 22 2022, 20:18:18) [GCC 9.4.0]
+
+```
 
 ## Задача 4 (*)
 
